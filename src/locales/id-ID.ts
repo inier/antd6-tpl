@@ -7,6 +7,8 @@ import settingDrawer from './id-ID/settingDrawer';
 import settings from './id-ID/settings';
 
 export default {
+  'menu.demo': 'examples',
+  'menu.menu1': 'menu-1',
   'navbar.lang': 'Bahasa',
   'layout.user.link.help': 'Bantuan',
   'layout.user.link.privacy': 'Privasi',

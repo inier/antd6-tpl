@@ -7,6 +7,8 @@ import settingDrawer from './fa-IR/settingDrawer';
 import settings from './fa-IR/settings';
 
 export default {
+  'menu.demo': 'examples',
+  'menu.menu1': 'menu-1',
   'navBar.lang': 'زبان ها  ',
   'layout.user.link.help': 'کمک',
   'layout.user.link.privacy': 'حریم خصوصی',

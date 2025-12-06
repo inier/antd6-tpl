@@ -120,7 +120,7 @@ export default () => {
   );
   return (
     <GridContent>
-      <Card bordered={false}>
+      <Card variant="outlined">
         <Result
           status="success"
           title="提交成功"

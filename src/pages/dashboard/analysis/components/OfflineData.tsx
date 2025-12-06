@@ -61,7 +61,7 @@ const OfflineData = ({
     <Card
       loading={loading}
       className={styles.offlineCard}
-      bordered={false}
+      variant="outlined"
       style={{
         marginTop: 32,
       }}

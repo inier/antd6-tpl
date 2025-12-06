@@ -7,6 +7,8 @@ import settingDrawer from './ja-JP/settingDrawer';
 import settings from './ja-JP/settings';
 
 export default {
+  'menu.demo': 'examples',
+  'menu.menu1': 'menu-1',
   'navBar.lang': '言語',
   'layout.user.link.help': 'ヘルプ',
   'layout.user.link.privacy': 'プライバシー',

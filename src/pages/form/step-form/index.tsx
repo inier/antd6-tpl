@@ -1,3 +1,4 @@
+import type { ProFormInstance } from '@ant-design/pro-components';
 import {
   PageContainer,
   ProForm,
@@ -82,10 +83,10 @@ const StepForm: React.FC<Record<string, any>> = () => {
     receiverMode: 'alipay',
   });
   const [current, setCurrent] = useState(0);
-  const formRef = useRef<FormInstance>(null);
+  const formRef = useRef<ProFormInstance<StepDataType>>(undefined);
   return (
     <PageContainer content="将一个冗长或用户不熟悉的表单任务分成多个步骤，指导用户完成。">
-      <Card bordered={false}>
+      <Card variant="outlined">
         <StepsForm
           current={current}
           onCurrentChange={setCurrent}
@@ -189,7 +190,7 @@ const StepForm: React.FC<Record<string, any>> = () => {
               <Alert
                 closable
                 showIcon
-                message="确认转账后，资金将直接打入对方账户，无法退回。"
+                title="确认转账后，资金将直接打入对方账户，无法退回。"
                 style={{
                   marginBottom: 24,
                 }}

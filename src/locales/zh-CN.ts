@@ -7,6 +7,8 @@ import settingDrawer from './zh-CN/settingDrawer';
 import settings from './zh-CN/settings';
 
 export default {
+  'menu.demo': '示例',
+  'menu.menu1': '菜单一',
   'navBar.lang': '语言',
   'layout.user.link.help': '帮助',
   'layout.user.link.privacy': '隐私',

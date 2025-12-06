@@ -7,6 +7,8 @@ import settingDrawer from './pt-BR/settingDrawer';
 import settings from './pt-BR/settings';
 
 export default {
+  'menu.demo': 'examples',
+  'menu.menu1': 'menu-1',
   'navBar.lang': 'Idiomas',
   'layout.user.link.help': 'ajuda',
   'layout.user.link.privacy': 'política de privacidade',

@@ -53,7 +53,7 @@ export default () => {
   );
   return (
     <GridContent>
-      <Card bordered={false}>
+      <Card variant="outlined">
         <Result
           status="error"
           title="提交失败"
